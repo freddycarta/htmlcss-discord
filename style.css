@@ -6,7 +6,8 @@
 }
 /* main header */
 .head {
-background-color: blue;    width: 100%;
+background-color: rgb(29, 29, 187);   
+width: 100%;
 padding: 30px;
 font-size: 20px;
 }
@@ -38,5 +39,40 @@ font-size: 20px;
 .button1 {
     padding: 20px;
     border-radius: 25%;
+    border: none;
+    font-size: 15px;
 }
 /* main header */
+
+.head2 {
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.textjumbo {
+    padding: 100px;
+}
+
+.button2 {
+    padding: 20px;
+    border-radius: 25%;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.button3 {
+    padding: 20px;
+    border-radius: 25%;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 50px;
+}
