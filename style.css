@@ -80,8 +80,13 @@ h1 {
 
 .img1section {
     float: left;
+    width: 50%;
+
 }
 
 .text1section {
     float: left;
+    width: 50%;
+    padding: 80px;
+    
 }
