@@ -6,7 +6,7 @@
 }
 /* main header */
 .head {
-background-color: rgb(29, 29, 187);   
+background-color: #3161e0;   
 width: 100%;
 padding: 30px;
 font-size: 20px;
@@ -75,4 +75,13 @@ font-size: 20px;
 
 h1 {
     font-size: 50px;
+}
+/* 1section */
+
+.img1section {
+    float: left;
+}
+
+.text1section {
+    float: left;
 }
