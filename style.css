@@ -4,6 +4,13 @@
     padding: 0;
 
 }
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* main header */
 .head {
 background-color: #3161e0;   
@@ -12,11 +19,7 @@ padding: 30px;
 font-size: 20px;
 }
 
-.clearfix::after{
-    content: "";
-    clear: both;
-    display: table;
-}
+
 
 .logo{
     float: left;
@@ -28,19 +31,24 @@ font-size: 20px;
     float: left;
     padding-right: 300px;
     color: white;
+    vertical-align: middles;
   
 }
 .login{
     float: left;
-    margin-left: 50px;
     
 }
 
 .button1 {
-    padding: 20px;
-    border-radius: 25%;
+    padding: 15px;
+    border-radius: 20px;
     border: none;
     font-size: 15px;
+    cursor: pointer;
+}
+
+span{
+    margin-right: 10px;
 }
 /* main header */
 
@@ -52,31 +60,39 @@ font-size: 20px;
     vertical-align: middle;
 }
 
+
 .textjumbo {
     padding: 100px;
 }
 
 .button2 {
-    padding: 20px;
-    border-radius: 25%;
+    padding: 15px;
+    border-radius: 20px;
     background-color: white;
     border: none;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .button3 {
-    padding: 20px;
-    border-radius: 25%;
+    padding: 15px;
+    border-radius: 20px;
     background-color: black;
     color: white;
     border: none;
     font-size: 15px;
+    cursor: pointer;
 }
 
 h1 {
     font-size: 50px;
 }
 /* 1section */
+
+main {
+    padding: 80px;
+}
+
 
 .img1section {
     float: left;
@@ -88,5 +104,43 @@ h1 {
     float: left;
     width: 50%;
     padding: 80px;
+    
+}
+
+/* 2section */
+
+
+.img2section {
+    float: left;
+    width: 50%;
+
+}
+
+.text2section {
+    float: left;
+    width: 50%;
+    padding: 80px;
+    
+}
+
+/* 2section */
+
+/* 3section */
+
+.img3section {
+    float: left;
+    width: 50%;
+
+}
+
+.text3section {
+    float: left;
+    width: 50%;
+    padding: 80px;
+    
+}
+
+/* section4 */
+.section4 {
     
 }
